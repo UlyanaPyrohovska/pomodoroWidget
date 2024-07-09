@@ -1,0 +1,87 @@
+.CircularProgressbar-trail {
+    stroke: gray;
+}
+
+.CircularProgressbar-text {
+    font-size: small;
+}
+
+.circular-bar {
+    width: 200;
+    height: 200;
+}
+
+.timer-wrap {
+    background-color: white;
+    max-width: 500px;
+    min-height: 400px;
+    border-radius: 30px;
+    padding: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.blackTheme {
+    background-color: rgb(19, 18, 25);
+    color: white;
+}
+
+.timer-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.timer-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    padding: 25px;
+}
+
+.action-button {
+    border: none;
+    padding: 15px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    height: 50px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    border-radius: 5px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.449);
+}
+
+.action-button:hover {
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.594);
+}
+
+.action-button .blackTheme {
+    color: white;
+}
+
+.small-icon-button {
+    padding: 5px;
+    width: 50px;
+}
+
+.selected-mode {
+    transition-duration: 0.4s;
+}
+
+.tomato {
+    display: flex;
+    align-items: center;
+    max-width: 55px;
+    position: absolute;
+    margin-top: 343px;
+    margin-left: 30px;
+}
+
+.tomato span {
+    font-size: 24px;
+    padding-left: 10px;
+}
